@@ -1,0 +1,250 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+BuildScript: C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\bin\Release\cd6d778f-49e0-41c4-9ee1-faade7d52de0.bat
+// ***** Done, took 00:00:00 (0.08 sec)   *****
+// Found 2 benchmarks:
+//   ArrayVsList.AddNumberInArray: DefaultJob [countNumber=50]
+//   ArrayVsList.AddNumberInList: DefaultJob [countNumber=50]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: ArrayVsList.AddNumberInArray: DefaultJob [countNumber=50]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\bin\Release\cd6d778f-49e0-41c4-9ee1-faade7d52de0.exe --benchmarkName "PerformanceComparator.ArrayVsList.AddNumberInArray(countNumber: 50)" --job "Default" --benchmarkId 0 in 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 452192.83 ns, 452.1928 us/op
+WorkloadJitting  1: 1 op, 345708.71 ns, 345.7087 us/op
+
+OverheadJitting  2: 16 op, 187076.55 ns, 11.6923 us/op
+WorkloadJitting  2: 16 op, 336956.59 ns, 21.0598 us/op
+
+WorkloadPilot    1: 16 op, 9481.46 ns, 592.5914 ns/op
+WorkloadPilot    2: 32 op, 4011.39 ns, 125.3559 ns/op
+WorkloadPilot    3: 64 op, 29903.07 ns, 467.2355 ns/op
+WorkloadPilot    4: 128 op, 13857.52 ns, 108.2619 ns/op
+WorkloadPilot    5: 256 op, 22244.97 ns, 86.8944 ns/op
+WorkloadPilot    6: 512 op, 25527.01 ns, 49.8574 ns/op
+WorkloadPilot    7: 1024 op, 74028.34 ns, 72.2933 ns/op
+WorkloadPilot    8: 2048 op, 101743.39 ns, 49.6794 ns/op
+WorkloadPilot    9: 4096 op, 618847.76 ns, 151.0859 ns/op
+WorkloadPilot   10: 8192 op, 1026915.32 ns, 125.3559 ns/op
+WorkloadPilot   11: 16384 op, 1816064.73 ns, 110.8438 ns/op
+WorkloadPilot   12: 32768 op, 2749624.11 ns, 83.9119 ns/op
+WorkloadPilot   13: 65536 op, 4163456.04 ns, 63.5293 ns/op
+WorkloadPilot   14: 131072 op, 10651693.74 ns, 81.2660 ns/op
+WorkloadPilot   15: 262144 op, 16148024.59 ns, 61.5998 ns/op
+WorkloadPilot   16: 524288 op, 25665589.55 ns, 48.9532 ns/op
+WorkloadPilot   17: 1048576 op, 51916112.40 ns, 49.5111 ns/op
+WorkloadPilot   18: 2097152 op, 98524064.50 ns, 46.9799 ns/op
+WorkloadPilot   19: 4194304 op, 206702810.49 ns, 49.2818 ns/op
+WorkloadPilot   20: 8388608 op, 387467257.05 ns, 46.1897 ns/op
+WorkloadPilot   21: 16777216 op, 841850300.11 ns, 50.1782 ns/op
+
+OverheadWarmup   1: 16777216 op, 36149899.00 ns, 2.1547 ns/op
+OverheadWarmup   2: 16777216 op, 32193576.46 ns, 1.9189 ns/op
+OverheadWarmup   3: 16777216 op, 32627171.03 ns, 1.9447 ns/op
+OverheadWarmup   4: 16777216 op, 38361267.79 ns, 2.2865 ns/op
+OverheadWarmup   5: 16777216 op, 41055826.49 ns, 2.4471 ns/op
+OverheadWarmup   6: 16777216 op, 35467233.71 ns, 2.1140 ns/op
+OverheadWarmup   7: 16777216 op, 36801931.88 ns, 2.1936 ns/op
+OverheadWarmup   8: 16777216 op, 31949246.46 ns, 1.9043 ns/op
+
+OverheadActual   1: 16777216 op, 31725338.08 ns, 1.8910 ns/op
+OverheadActual   2: 16777216 op, 31920437.40 ns, 1.9026 ns/op
+OverheadActual   3: 16777216 op, 31420107.92 ns, 1.8728 ns/op
+OverheadActual   4: 16777216 op, 30702798.82 ns, 1.8300 ns/op
+OverheadActual   5: 16777216 op, 31001829.56 ns, 1.8479 ns/op
+OverheadActual   6: 16777216 op, 30842103.38 ns, 1.8383 ns/op
+OverheadActual   7: 16777216 op, 30581727.84 ns, 1.8228 ns/op
+OverheadActual   8: 16777216 op, 32049531.16 ns, 1.9103 ns/op
+OverheadActual   9: 16777216 op, 31275697.95 ns, 1.8642 ns/op
+OverheadActual  10: 16777216 op, 30725408.46 ns, 1.8314 ns/op
+OverheadActual  11: 16777216 op, 31474443.99 ns, 1.8760 ns/op
+OverheadActual  12: 16777216 op, 32092197.74 ns, 1.9128 ns/op
+OverheadActual  13: 16777216 op, 32138146.37 ns, 1.9156 ns/op
+OverheadActual  14: 16777216 op, 32771580.99 ns, 1.9533 ns/op
+OverheadActual  15: 16777216 op, 31579104.75 ns, 1.8823 ns/op
+
+WorkloadWarmup   1: 16777216 op, 775404575.83 ns, 46.2177 ns/op
+WorkloadWarmup   2: 16777216 op, 778899588.76 ns, 46.4260 ns/op
+WorkloadWarmup   3: 16777216 op, 765255764.27 ns, 45.6128 ns/op
+WorkloadWarmup   4: 16777216 op, 777006578.31 ns, 46.3132 ns/op
+WorkloadWarmup   5: 16777216 op, 786498980.93 ns, 46.8790 ns/op
+WorkloadWarmup   6: 16777216 op, 775597851.79 ns, 46.2292 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 16777216 op, 752921110.95 ns, 44.8776 ns/op
+WorkloadActual   2: 16777216 op, 771663774.21 ns, 45.9947 ns/op
+WorkloadActual   3: 16777216 op, 753249315.42 ns, 44.8972 ns/op
+WorkloadActual   4: 16777216 op, 756741775.65 ns, 45.1053 ns/op
+WorkloadActual   5: 16777216 op, 766052207.12 ns, 45.6603 ns/op
+WorkloadActual   6: 16777216 op, 754411888.59 ns, 44.9665 ns/op
+WorkloadActual   7: 16777216 op, 767471144.45 ns, 45.7448 ns/op
+WorkloadActual   8: 16777216 op, 768394128.35 ns, 45.7999 ns/op
+WorkloadActual   9: 16777216 op, 769558889.55 ns, 45.8693 ns/op
+WorkloadActual  10: 16777216 op, 767442700.06 ns, 45.7431 ns/op
+WorkloadActual  11: 16777216 op, 778685526.51 ns, 46.4133 ns/op
+WorkloadActual  12: 16777216 op, 763966285.38 ns, 45.5359 ns/op
+WorkloadActual  13: 16777216 op, 781266672.33 ns, 46.5671 ns/op
+WorkloadActual  14: 16777216 op, 771492013.87 ns, 45.9845 ns/op
+WorkloadActual  15: 16777216 op, 772179419.90 ns, 46.0255 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 16777216 op, 721446666.96 ns, 43.0016 ns/op
+WorkloadResult   2: 16777216 op, 740189330.22 ns, 44.1187 ns/op
+WorkloadResult   3: 16777216 op, 721774871.43 ns, 43.0211 ns/op
+WorkloadResult   4: 16777216 op, 725267331.66 ns, 43.2293 ns/op
+WorkloadResult   5: 16777216 op, 734577763.13 ns, 43.7842 ns/op
+WorkloadResult   6: 16777216 op, 722937444.59 ns, 43.0904 ns/op
+WorkloadResult   7: 16777216 op, 735996700.45 ns, 43.8688 ns/op
+WorkloadResult   8: 16777216 op, 736919684.35 ns, 43.9238 ns/op
+WorkloadResult   9: 16777216 op, 738084445.55 ns, 43.9933 ns/op
+WorkloadResult  10: 16777216 op, 735968256.06 ns, 43.8671 ns/op
+WorkloadResult  11: 16777216 op, 747211082.52 ns, 44.5373 ns/op
+WorkloadResult  12: 16777216 op, 732491841.38 ns, 43.6599 ns/op
+WorkloadResult  13: 16777216 op, 749792228.34 ns, 44.6911 ns/op
+WorkloadResult  14: 16777216 op, 740017569.88 ns, 44.1085 ns/op
+WorkloadResult  15: 16777216 op, 740704975.91 ns, 44.1495 ns/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 43.8030 ns, StdErr = 0.1347 ns (0.31%); N = 15, StdDev = 0.5218 ns
+Min = 43.0016 ns, Q1 = 43.2293 ns, Median = 43.8688 ns, Q3 = 44.1187 ns, Max = 44.6911 ns
+IQR = 0.8894 ns, LowerFence = 41.8952 ns, UpperFence = 45.4529 ns
+ConfidenceInterval = [43.2452 ns; 44.3608 ns] (CI 99.9%), Margin = 0.5578 ns (1.27% of Mean)
+Skewness = -0.16, Kurtosis = 1.89, MValue = 2
+
+// **************************
+// Benchmark: ArrayVsList.AddNumberInList: DefaultJob [countNumber=50]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\bin\Release\cd6d778f-49e0-41c4-9ee1-faade7d52de0.exe --benchmarkName "PerformanceComparator.ArrayVsList.AddNumberInList(countNumber: 50)" --job "Default" --benchmarkId 1 in 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 254905.47 ns, 254.9055 us/op
+WorkloadJitting  1: 1 op, 210050.86 ns, 210.0509 us/op
+
+OverheadJitting  2: 16 op, 182335.82 ns, 11.3960 us/op
+WorkloadJitting  2: 16 op, 173219.03 ns, 10.8262 us/op
+
+WorkloadPilot    1: 16 op, 8022.78 ns, 501.4235 ns/op
+WorkloadPilot    2: 32 op, 8387.45 ns, 262.1077 ns/op
+WorkloadPilot    3: 64 op, 29903.07 ns, 467.2355 ns/op
+WorkloadPilot    4: 128 op, 44489.94 ns, 347.5777 ns/op
+WorkloadPilot    5: 256 op, 124353.03 ns, 485.7540 ns/op
+WorkloadPilot    6: 512 op, 332580.53 ns, 649.5713 ns/op
+WorkloadPilot    7: 1024 op, 537525.99 ns, 524.9277 ns/op
+WorkloadPilot    8: 2048 op, 1059006.42 ns, 517.0930 ns/op
+WorkloadPilot    9: 4096 op, 2216474.19 ns, 541.1314 ns/op
+WorkloadPilot   10: 8192 op, 3569770.62 ns, 435.7630 ns/op
+WorkloadPilot   11: 16384 op, 7614343.70 ns, 464.7427 ns/op
+WorkloadPilot   12: 32768 op, 13215335.32 ns, 403.3000 ns/op
+WorkloadPilot   13: 65536 op, 27057176.50 ns, 412.8597 ns/op
+WorkloadPilot   14: 131072 op, 51476318.41 ns, 392.7331 ns/op
+WorkloadPilot   15: 262144 op, 103727199.36 ns, 395.6879 ns/op
+WorkloadPilot   16: 524288 op, 209565482.81 ns, 399.7144 ns/op
+WorkloadPilot   17: 1048576 op, 402072355.96 ns, 383.4461 ns/op
+
+OutOfMemoryException!
+BenchmarkDotNet continues to run additional iterations until desired accuracy level is achieved. It's possible only if the benchmark method doesn't have any side-effects.
+If your benchmark allocates memory and keeps it alive, you are creating a memory leak.
+You should redesign your benchmark and remove the side-effects. You can use `OperationsPerInvoke`, `IterationSetup` and `IterationCleanup` to do that.
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at PerformanceComparator.ArrayVsList.AddNumberInList() in C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\ArrayVsList.cs:line 35
+   at BenchmarkDotNet.Autogenerated.Runnable_1.WorkloadActionUnroll(Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EnginePilotStage.RunAuto()
+   at BenchmarkDotNet.Engines.EnginePilotStage.Run()
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_1.Run(IHost host, String benchmarkName)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args)
+// AfterAll
+ExitCode != 0
+No more Benchmark runs will be launched as NO measurements were obtained from the previous run!
+
+
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Balanced)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.ArrayVsList-report.csv
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.ArrayVsList-report-github.md
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.ArrayVsList-report.html
+
+// * Detailed results *
+ArrayVsList.AddNumberInArray: DefaultJob [countNumber=50]
+Runtime = .NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0; GC = Concurrent Workstation
+Mean = 43.8030 ns, StdErr = 0.1347 ns (0.31%); N = 15, StdDev = 0.5218 ns
+Min = 43.0016 ns, Q1 = 43.2293 ns, Median = 43.8688 ns, Q3 = 44.1187 ns, Max = 44.6911 ns
+IQR = 0.8894 ns, LowerFence = 41.8952 ns, UpperFence = 45.4529 ns
+ConfidenceInterval = [43.2452 ns; 44.3608 ns] (CI 99.9%), Margin = 0.5578 ns (1.27% of Mean)
+Skewness = -0.16, Kurtosis = 1.89, MValue = 2
+-------------------- Histogram --------------------
+[42.816 ns ; 44.876 ns) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+ArrayVsList.AddNumberInList: DefaultJob [countNumber=50]
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.885 (1803/April2018Update/Redstone4)
+Intel Core i7-6600U CPU 2.60GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+Frequency=2742193 Hz, Resolution=364.6716 ns, Timer=TSC
+  [Host]     : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+  DefaultJob : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+
+
+|           Method | countNumber |     Mean |     Error |    StdDev |
+|----------------- |------------ |---------:|----------:|----------:|
+| AddNumberInArray |          50 | 43.80 ns | 0.5578 ns | 0.5218 ns |
+|  AddNumberInList |          50 |       NA |        NA |        NA |
+
+Benchmarks with issues:
+  ArrayVsList.AddNumberInList: DefaultJob [countNumber=50]
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - McAfee Endpoint Security (C:\Program Files (x86)\McAfee\Endpoint Security\Threat Prevention\AMCFG.EXE)
+        - Windows Defender (windowsdefender://)
+Use InProcessToolchain to avoid new process creation.
+
+
+// * Legends *
+  countNumber : Value of the 'countNumber' parameter
+  Mean        : Arithmetic mean of all measurements
+  Error       : Half of 99.9% confidence interval
+  StdDev      : Standard deviation of all measurements
+  1 ns        : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:22 (22.41 sec), executed benchmarks: 2
+
+Global total time: 00:00:22 (22.5 sec), executed benchmarks: 2
+// * Artifacts cleanup *

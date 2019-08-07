@@ -1,0 +1,153 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+BuildScript: C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\bin\Release\0de70cd1-0d76-477b-bdd0-3a3c98bcb889.bat
+// ***** Done, took 00:00:03 (3.37 sec)   *****
+// Found 1 benchmarks:
+//   Program.Run: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: Program.Run: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\bin\Release\0de70cd1-0d76-477b-bdd0-3a3c98bcb889.exe --benchmarkName "PerformanceComparator.Program.Run" --job "Default" --benchmarkId 0 in 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 238495.25 ns, 238.4952 us/op
+WorkloadJitting  1: 1 op, 727519.91 ns, 727.5199 us/op
+
+OverheadJitting  2: 16 op, 145868.65 ns, 9.1168 us/op
+WorkloadJitting  2: 16 op, 148421.35 ns, 9.2763 us/op
+
+WorkloadPilot    1: 16 op, 10940.15 ns, 683.7593 ns/op
+WorkloadPilot    2: 32 op, 11304.82 ns, 353.2756 ns/op
+WorkloadPilot    3: 64 op, 17504.24 ns, 273.5037 ns/op
+WorkloadPilot    4: 128 op, 40478.55 ns, 316.2387 ns/op
+WorkloadPilot    5: 256 op, 41572.57 ns, 162.3928 ns/op
+WorkloadPilot    6: 512 op, 106484.12 ns, 207.9768 ns/op
+WorkloadPilot    7: 1024 op, 264022.26 ns, 257.8342 ns/op
+WorkloadPilot    8: 2048 op, 561594.32 ns, 274.2160 ns/op
+WorkloadPilot    9: 4096 op, 1001752.98 ns, 244.5686 ns/op
+WorkloadPilot   10: 8192 op, 2032315.01 ns, 248.0853 ns/op
+WorkloadPilot   11: 16384 op, 4884776.53 ns, 298.1431 ns/op
+WorkloadPilot   12: 32768 op, 7850650.92 ns, 239.5829 ns/op
+WorkloadPilot   13: 65536 op, 17029071.26 ns, 259.8430 ns/op
+WorkloadPilot   14: 131072 op, 32077246.20 ns, 244.7300 ns/op
+WorkloadPilot   15: 262144 op, 63610037.66 ns, 242.6530 ns/op
+WorkloadPilot   16: 524288 op, 122072005.87 ns, 232.8339 ns/op
+WorkloadPilot   17: 1048576 op, 267166461.30 ns, 254.7898 ns/op
+WorkloadPilot   18: 2097152 op, 555543683.47 ns, 264.9039 ns/op
+
+OverheadWarmup   1: 2097152 op, 3849109.09 ns, 1.8354 ns/op
+OverheadWarmup   2: 2097152 op, 4055877.91 ns, 1.9340 ns/op
+OverheadWarmup   3: 2097152 op, 4673631.65 ns, 2.2286 ns/op
+OverheadWarmup   4: 2097152 op, 3912197.28 ns, 1.8655 ns/op
+OverheadWarmup   5: 2097152 op, 5260388.31 ns, 2.5083 ns/op
+OverheadWarmup   6: 2097152 op, 3886670.27 ns, 1.8533 ns/op
+
+OverheadActual   1: 2097152 op, 3918396.70 ns, 1.8684 ns/op
+OverheadActual   2: 2097152 op, 4025610.16 ns, 1.9196 ns/op
+OverheadActual   3: 2097152 op, 3889952.31 ns, 1.8549 ns/op
+OverheadActual   4: 2097152 op, 3833792.88 ns, 1.8281 ns/op
+OverheadActual   5: 2097152 op, 4046761.11 ns, 1.9296 ns/op
+OverheadActual   6: 2097152 op, 4597050.61 ns, 2.1920 ns/op
+OverheadActual   7: 2097152 op, 4000083.15 ns, 1.9074 ns/op
+OverheadActual   8: 2097152 op, 3915114.65 ns, 1.8669 ns/op
+OverheadActual   9: 2097152 op, 4450817.28 ns, 2.1223 ns/op
+OverheadActual  10: 2097152 op, 4199558.53 ns, 2.0025 ns/op
+OverheadActual  11: 2097152 op, 3760858.55 ns, 1.7933 ns/op
+OverheadActual  12: 2097152 op, 4015764.03 ns, 1.9149 ns/op
+OverheadActual  13: 2097152 op, 4337769.08 ns, 2.0684 ns/op
+OverheadActual  14: 2097152 op, 4234567.01 ns, 2.0192 ns/op
+OverheadActual  15: 2097152 op, 4036185.64 ns, 1.9246 ns/op
+OverheadActual  16: 2097152 op, 4035820.97 ns, 1.9244 ns/op
+OverheadActual  17: 2097152 op, 3917667.36 ns, 1.8681 ns/op
+OverheadActual  18: 2097152 op, 4147775.16 ns, 1.9778 ns/op
+OverheadActual  19: 2097152 op, 4783397.81 ns, 2.2809 ns/op
+OverheadActual  20: 2097152 op, 3888128.95 ns, 1.8540 ns/op
+
+WorkloadWarmup   1: 2097152 op, 660998332.36 ns, 315.1886 ns/op
+WorkloadWarmup   2: 2097152 op, 346624763.46 ns, 165.2836 ns/op
+WorkloadWarmup   3: 2097152 op, 337625032.23 ns, 160.9922 ns/op
+
+OutOfMemoryException!
+BenchmarkDotNet continues to run additional iterations until desired accuracy level is achieved. It's possible only if the benchmark method doesn't have any side-effects.
+If your benchmark allocates memory and keeps it alive, you are creating a memory leak.
+You should redesign your benchmark and remove the side-effects. You can use `OperationsPerInvoke`, `IterationSetup` and `IterationCleanup` to do that.
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Collections.Generic.List`1.set_Capacity(Int32 value)
+   at System.Collections.Generic.List`1.EnsureCapacity(Int32 min)
+   at System.Collections.Generic.List`1.Add(T item)
+   at PerformanceComparator.ForVsForeach.AddNumberInListUsingFor() in C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\ForVsForeach.cs:line 30
+   at PerformanceComparator.Program.Run() in C:\Users\dgupta\source\repos\PerformanceComparator\PerformanceComparator\Program.cs:line 16
+   at BenchmarkDotNet.Autogenerated.Runnable_0.WorkloadActionUnroll(Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineStage.Run(IStoppingCriteria criteria, Int64 invokeCount, IterationMode mode, IterationStage stage, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.Run(Int64 invokeCount, IterationMode iterationMode, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_0.Run(IHost host, String benchmarkName)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args)
+// AfterAll
+ExitCode != 0
+No more Benchmark runs will be launched as NO measurements were obtained from the previous run!
+
+
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Balanced)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.Program-report.csv
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.Program-report-github.md
+  BenchmarkDotNet.Artifacts\results\PerformanceComparator.Program-report.html
+
+// * Detailed results *
+Program.Run: DefaultJob
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.885 (1803/April2018Update/Redstone4)
+Intel Core i7-6600U CPU 2.60GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+Frequency=2742193 Hz, Resolution=364.6716 ns, Timer=TSC
+  [Host] : .NET Framework 4.7.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3416.0
+
+
+| Method | Mean | Error |
+|------- |-----:|------:|
+|    Run |   NA |    NA |
+
+Benchmarks with issues:
+  Program.Run: DefaultJob
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - McAfee Endpoint Security (C:\Program Files (x86)\McAfee\Endpoint Security\Threat Prevention\AMCFG.EXE)
+        - Windows Defender (windowsdefender://)
+Use InProcessToolchain to avoid new process creation.
+
+
+// * Legends *
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:08 (8.28 sec), executed benchmarks: 1
+
+Global total time: 00:00:11 (11.66 sec), executed benchmarks: 1
+// * Artifacts cleanup *
